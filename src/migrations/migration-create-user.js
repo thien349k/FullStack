@@ -25,12 +25,18 @@ module.exports = {
         type: Sequelize.STRING,
       },
       gender: {
+        type: Sequelize.BOOLEAN,
+      },
+      roleId: {
         type: Sequelize.STRING,
       },
-      typeRole: {
+      phonenumber: {
         type: Sequelize.STRING,
       },
-      keyRole: {
+      positionId: {
+        type: Sequelize.STRING,
+      },
+      image: {
         type: Sequelize.STRING,
       },
       createdAt: {
