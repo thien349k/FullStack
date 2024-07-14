@@ -11,7 +11,7 @@ let createNewUser = async (data) => {
         email: data.email,
         password: hashPasswordFromBcrypt,
         firstName: data.firstName,
-        lastName: data.lastNameName,
+        lastName: data.lastName,
         address: data.address,
         phonenumber: data.phonenumber,
         gender: data.gender === "1" ? true : false,
