@@ -20,7 +20,7 @@ let createNewUser = async (data) => {
       resolve("ok create a new user succeed!");
     } catch (e) {
       reject(e);
-    }
+    } 
   });
 };
 
